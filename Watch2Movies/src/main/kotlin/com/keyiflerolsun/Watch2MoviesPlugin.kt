@@ -11,5 +11,6 @@ class Watch2MoviesPlugin: Plugin() {
         registerExtractorAPI(W2MExtractor("https://hanatyury.online/",context))
         registerExtractorAPI(W2MExtractor("https://pepepeyo.xyz/",context))
         registerExtractorAPI(W2MExtractor("https://zizicoi.online/",context))
+        registerExtractorAPI(W2MExtractor("https://watch2movies.net/",context))
     }
 }
