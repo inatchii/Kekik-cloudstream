@@ -8,6 +8,8 @@ import android.content.Context
 class Watch2MoviesPlugin: Plugin() {
     override fun load(context: Context) {
         registerMainAPI(Watch2Movies())
-        registerExtractorAPI(W2MExtractor(context))
+        registerExtractorAPI(W2MExtractor("https://hanatyury.online/",context))
+        registerExtractorAPI(W2MExtractor("https://pepepeyo.xyz/",context))
+        registerExtractorAPI(W2MExtractor("https://zizicoi.online/",context))
     }
 }
