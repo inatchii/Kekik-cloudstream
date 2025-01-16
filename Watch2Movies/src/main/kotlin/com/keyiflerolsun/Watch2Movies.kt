@@ -132,7 +132,7 @@ class Watch2Movies : MainAPI() {
             Log.d("W2M", "iframe » ${dataSource!!.link}")
 
             // TODO: Extractors not coded yet » UpCloudExtractor.kt
-            loadExtractor("https://watch2movies.net/watch-movie/watch-sonic-the-hedgehog-3-full-118882", "${mainUrl}/", subtitleCallback, callback)
+            loadExtractor("https://watch2movies.net/watch-movie/watch-sonic-the-hedgehog-3-full-118882.10861309", "${mainUrl}/", subtitleCallback, callback)
         }
 
         return true
