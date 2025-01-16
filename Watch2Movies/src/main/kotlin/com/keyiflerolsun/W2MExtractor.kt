@@ -102,8 +102,8 @@ window.chrome = { runtime: {} };
             val connection = URL(url).openConnection() as HttpURLConnection
             connection.requestMethod = "GET"
             if(headers != null){
-                for (header in headers){
-                    connection.headerFields[header.key] = listOf(header.value)
+                for (header in headers) {
+                    connection.setRequestProperty(header.key, header.value)
                 }
             }
             connection.connect()
