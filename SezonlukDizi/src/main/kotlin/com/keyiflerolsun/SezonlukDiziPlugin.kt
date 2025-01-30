@@ -8,5 +8,6 @@ import android.content.Context
 class SezonlukDiziPlugin: Plugin() {
     override fun load(context: Context) {
         registerMainAPI(SezonlukDizi())
+        registerExtractorAPI(Filemoon())
     }
 }
